@@ -4,6 +4,7 @@ var eth = document.getElementById("ethereum");
 var doge = document.getElementById("dogecoin");
 
 
+
 var settings = {
     "async": true,
     "crossDomain":true,
@@ -11,6 +12,7 @@ var settings = {
     "method":"GET",
     "headers":{}
 }
+
 $.ajax(settings).done(function(response){
     btc.innerHTML = response.bitcoin.usd;
     eth.innerHTML = response.ethereum.usd;
