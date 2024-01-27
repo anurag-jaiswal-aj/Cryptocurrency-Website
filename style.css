@@ -49,6 +49,7 @@ nav ul li a{
     text-decoration: none;
 }
 
+
 nav .btn{
     color: #fff;
     text-decoration: none;
@@ -57,18 +58,22 @@ nav .btn{
     border-radius: 20px;
 }
 
+
 .content{
     margin-top: 12%;
 }
+
 
 .content h1{
     font-size: 88px;
     margin-bottom: 15px;
 }
 
+
 .content h1 span{
     color: #ff960b;
 }
+
 
 .content p{
     margin-top: 25px;
